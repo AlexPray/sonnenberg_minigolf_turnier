@@ -1,7 +1,7 @@
 import React from 'react';
-import './RankedPlayer.css';
+import './Player.css';
 
-const RankedPlayer = ({ player, index }) => {
+const Player = ({ player, index }) => {
   return (
     <div className="player-container">
       <div className="rank">
@@ -17,4 +17,4 @@ const RankedPlayer = ({ player, index }) => {
   );
 };
 
-export default RankedPlayer;
+export default Player;

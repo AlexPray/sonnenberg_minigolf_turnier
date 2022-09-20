@@ -1,12 +1,12 @@
 import React from 'react';
+import Player from './Player';
 import './SinglePlayerRanking.css';
-import RankedPlayer from './RankedPlayer';
 
 const SinglePlayerRanking = ({ players }) => {
   return (
     <div className="single-container container">
       {players.map((player, index) => {
-        return <RankedPlayer key={index} index={index} player={player} />;
+        return <Player key={index} index={index} player={player} />;
       })}
     </div>
   );

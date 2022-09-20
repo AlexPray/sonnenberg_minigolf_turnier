@@ -17,12 +17,13 @@ const useConentful = () => {
 
       const players = entries.items.map((item) => {
         const team = item.fields.team.fields.name;
+        const teamId = item.fields.team.sys.id;
         return {
           ...item.fields,
-            team,
+          team,
+          teamId,
         };
       });
-
       return players;
     } catch {
       console.log(`Error fetching players`);
