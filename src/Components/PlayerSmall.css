@@ -1,0 +1,40 @@
+.playerSmall-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  background-color: var(--main-color);
+  width: 47.5%;
+}
+
+.playerSmall-firstname {
+  border-radius: 8px;
+  color: white;
+  margin: auto 0 auto 10px ;
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.playerSmall-points {
+  background-color: var(--second-color);
+  position: relative;
+  padding: 0 5px;
+  border-radius: 8px;
+  margin-left: auto;
+  min-width: 26px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  .playerSmall-container {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .playerSmall-container {
+    width: 21.25%;
+  }
+}

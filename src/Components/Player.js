@@ -8,7 +8,7 @@ const Player = ({ player, index }) => {
       <p>{index + 1}</p>
       </div>
       <div className="firstname">
-        <p>{player.vorname}</p>
+        <p>{player.spielername}</p>
         </div>
       <div className="points">
       <p>{player.punkte}</p>

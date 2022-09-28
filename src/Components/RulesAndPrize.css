@@ -1,0 +1,39 @@
+.rules-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.box-title {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.text-box {
+  max-width: 100%;
+  color: white;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.red {
+  background-color: #cf4f24;
+}
+
+.green {
+  background-color: #01674f;
+}
+
+.red-color {
+  color: #cf4f24;
+}
+
+.green-color {
+  color: #01674f;
+}
+
+.svg {
+  margin: auto;
+}

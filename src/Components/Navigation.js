@@ -27,11 +27,12 @@ const Navigation = () => {
           <a href="/regeln-preise">Regelment/Preise</a>
           <a href="/teamwertung">Teamwertung</a>
           <a href="/spielerwertung">Spielerwertung</a>
-          <a href="/admin">Admin</a>
+          <a href="https://be.contentful.com/login">Admin</a>
         </div>
         ) }
       </header>
     </div>
   );
 };
+
 export default Navigation;

@@ -4,7 +4,7 @@ import './SinglePlayerRanking.css';
 
 const SinglePlayerRanking = ({ players }) => {
   return (
-    <div className="single-container container">
+    <div className="ranking-container container">
       {players.map((player, index) => {
         return <Player key={index} index={index} player={player} />;
       })}

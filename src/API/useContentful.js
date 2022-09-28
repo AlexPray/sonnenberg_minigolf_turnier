@@ -24,6 +24,7 @@ const useConentful = () => {
           teamId,
         };
       });
+      console.log(players);
       return players;
     } catch {
       console.log(`Error fetching players`);

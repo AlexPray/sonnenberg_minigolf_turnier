@@ -53,9 +53,8 @@ const TeamRanking = ({ players }) => {
     buildTeams();
   }
 
-
   return (
-    <div className="team-container container">
+    <div className="ranking-container container">
       {teams !== undefined &&
         [...teams].map((team, index) => {
           return <Team key={index} index={index} team={team} />;

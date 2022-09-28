@@ -5,7 +5,6 @@ import Navigation from './Components/Navigation';
 import SinglePlayerRanking from './Components/SinglePlayerRanking';
 import TeamRanking from './Components/TeamRanking';
 import RulesAndPrize from './Components/RulesAndPrize';
-import Admin from './Components/Admin';
 import './App.css';
 
 function App() {
@@ -31,7 +30,6 @@ function App() {
           path="/spielerwertung"
           element={<SinglePlayerRanking players={players} />}
         />
-        <Route path="/admin" element={<Admin />} />
       </Routes>
     </div>
   );
