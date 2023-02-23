@@ -1,4 +1,6 @@
-# Projekt discontinued
+# Minigolf Turnier Rangliste
+**Website:** https://minigolfturnier.netlify.app/regeln-preise
+## Please note this project is discontinued and therefore hasn't been touched since somewhere in the middle of making.
 
 ### Introduction
 
@@ -13,3 +15,24 @@ but I learned the most important thing, which is how to set up a Contentful and 
 I also had some figma training during this project.
 
 ### Technologies
+
+**Figma:** https://www.figma.com/file/0f0UlUCwsRaa87tYgyIuwN/Mini_Golf_Turnier_App?t=9ZYurbUzNCWEyhXF-6
+
+**Contentful:** Set up Contentful and fetch the data through the Contentful API from there
+
+**React:** Basic react components and handler functions, useState, useEffect, react-router-dom
+
+**Javascript:** Classes, maps, array functions
+
+**CSS:** Plain CSS
+
+**Netlify:** This app uses Netlify for deployment
+
+### Launch
+
+To run this project, install it locally using npm:
+
+```
+$ npm install
+$ npm start
+```
